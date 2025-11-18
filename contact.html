@@ -27,6 +27,7 @@
     <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css"> 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/layout.css">
@@ -35,12 +36,12 @@
 <body>
     <!-- Page header -->
     <nav class="main-nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-        <a href="team.html">Team</a>
-        <a href="#" class="sign-in">Sign In</a>
+        <a href="index.html" class="w3-btn w3-round-large">Home</a>
+        <a href="about.html" class="w3-btn w3-round-large">About</a>
+        <a href="products.html" class="w3-btn w3-round-large">Products</a>
+        <a href="contact.html" class="w3-btn w3-round-large">Contact</a>
+        <a href="team.html" class="w3-btn w3-round-large">Team</a>
+        <a href="#" class="sign-in" class="w3-btn w3-round-large">Sign In</a>
     </nav>
     <header class="page-header">
         <h1>Launch Studio!</h1>
@@ -57,27 +58,27 @@
                 <legend>Get in Touch</legend>
 
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
+                <input class="w3-input" type="text" id="name" name="name" required>
 
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
+                <input class="w3-input" type="email" id="email" name="email" required>
 
                 <!-- Radio button -->
                 <p class="form">Preferred Contact Method:</p>
                 <label class="inline-control" for="contact-email">Email</label>
-                <input type="radio" id="contact-email" name="contact-method" value="email" checked>
+                <input class="w3-radio" type="radio" id="contact-email" name="contact-method" value="email" checked>
 
                 <label class="inline-control" for="contact-phone">Phone</label>
-                <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                <input class="w3-radio" type="radio" id="contact-phone" name="contact-method" value="phone">
 
                 <!-- Checkbox -->
                 <p class="form">Subscribe to Newsletter:</p>
                 <label class="inline-control" for="subscribe">Yes, sign me up!</label>
-                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                <input class="w3-check" type="checkbox" id="subscribe" name="subscribe" value="yes">
                 
                 <!-- Select Program -->
                 <label for="program">Choose Your Program</label>
-                <select id="program" name="program" required>
+                <select class="w3-select" id="program" name="program" required>
                     <option value="">--Please choose an option--</option>
                     <option value="web-development">Web Development</option>
                     <option value="data-science">Data Science</option>
@@ -86,7 +87,7 @@
                 </select>
 
                 <label for="message">Message</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
+                <textarea class="w3-input" id="message" name="message" rows="5" required></textarea>
 
                 <button type="submit">Submit</button>
                 <button type="reset">Clear Form</button>

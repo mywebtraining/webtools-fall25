@@ -27,6 +27,7 @@
     <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css"> 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/layout.css">
@@ -36,12 +37,12 @@
 <body>
     <!-- Page header -->
     <nav class="main-nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="products.html">Products</a>
-        <a href="contact.html">Contact</a>
-        <a href="team.html">Team</a>
-        <a href="#" class="sign-in">Sign In</a>
+        <a href="index.html" class="w3-btn w3-round-large">Home</a>
+        <a href="about.html" class="w3-btn w3-round-large">About</a>
+        <a href="products.html" class="w3-btn w3-round-large">Products</a>
+        <a href="contact.html" class="w3-btn w3-round-large">Contact</a>
+        <a href="team.html" class="w3-btn w3-round-large">Team</a>
+        <a href="#" class="sign-in" class="w3-btn w3-round-large">Sign In</a>
     </nav>
     <header class="page-header">
         <h1>Launch Studio!</h1>
@@ -50,14 +51,30 @@
 
     <!-- Main content -->
     <main class="products-grid">
-        <div class="product-card featured-product">
+
+        <div class="w3-card-4 w3-round-large featured-product w3-border">
+            <header class="w3-container w3-light-grey">
+                <h3>Berry Crunch</h3>
+            </header>
+            <div class="product-flex">
+                <img class="product-image w3-left w3-circle" src="images/berry-crunch.png" alt="Berry Crunch">
+                <div class="w3-container">
+                    <p>Berry Delicious</p>
+                    <button class="w3-button w3-block w3-dark-grey">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="product-card featured-product">
             <img class="product-image" src="images/berry-crunch.png" alt="Berry Crunch">
             <div>
                 <h2>Product 1</h2>
                 <p>Berry Delicious</p>
                 <a href="#" class="btn">Learn More</a>
             </div>
-        </div>
+        </div> -->
+
+
         <div class="product-card second-row-product">
             <img class="product-image" src="images/sweetios.png" alt="Sweetios">
             <div>
@@ -99,7 +116,7 @@
             </div>
         </div>
     </main>
-    
+
     <!-- Footer -->
     <footer class="flex-footer">
         <div class="item-order-1">
@@ -114,7 +131,7 @@
                 <li><a href="https://chatgpt.com/" class="nav-link">Chat GPT</a></li>
             </ul>
         </div>
-        
+
         <nav class="item-order-3">
             <h3 class="footer-heading">Site Nav</h3>
             <ul class="footer-content-left">
