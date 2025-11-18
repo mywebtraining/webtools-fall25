@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Stephen Herd">
     <meta name="description" content="This page includes content assisted by AI tools.">
-    
+
     <title>Getting Started at Launch Studio</title>
 
     <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
@@ -27,7 +27,10 @@
     <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/products.css">
 </head>
 
 <body>
@@ -35,7 +38,7 @@
     <nav class="main-nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
+        <a href="products.html">Products</a>
         <a href="contact.html">Contact</a>
         <a href="team.html">Team</a>
         <a href="#" class="sign-in">Sign In</a>
@@ -44,44 +47,59 @@
         <h1>Launch Studio!</h1>
         <img src="images/logo2-thumb.png" alt="Site Branding Logo" class="logo">
     </header>
+
     <!-- Main content -->
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>
-                At <strong>Launch Studio</strong>, we believe learning web development should feel like
-                stepping into your first professional role. Think of us as a creative workspace
-                where students transform curiosity into real-world skills.
-            </p>
-            <p>
-                We aren’t just building websites — we’re building confidence, collaboration,
-                and career-ready habits. Every project you tackle here is designed to feel
-                like an authentic assignment you might receive from a client or supervisor
-                in the field.
-            </p>
-
-            <h3>Our Mission</h3>
-            <p>
-                To provide aspiring developers with hands-on, project-based experiences that
-                bridge the gap between classroom learning and professional practice.
-            </p>
-
-            <h3>What We Do</h3>
-            <ul>
-                <li>Create a studio-like environment where students work on real-world challenges.</li>
-                <li>Encourage problem-solving, debugging, and documentation as everyday habits.</li>
-                <li>Connect tools like <code>VS Code</code>, <code>GitHub</code>, and modern web frameworks to authentic
-                    workflows.</li>
-            </ul>
-
-            <h3>Why It Matters</h3>
-            <p>
-                The web is constantly evolving, and so are we. By practicing in Launch Studio,
-                students don’t just learn <em>what</em> to code — they learn <em>how</em> to
-                think like developers, adapt to new tools, and collaborate effectively.
-            </p>
-        </section>
+    <main class="products-grid">
+        <div class="product-card featured-product">
+            <img class="product-image" src="images/berry-crunch.png" alt="Berry Crunch">
+            <div>
+                <h2>Product 1</h2>
+                <p>Berry Delicious</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="product-card second-row-product">
+            <img class="product-image" src="images/sweetios.png" alt="Sweetios">
+            <div>
+                <h2>Product 1</h2>
+                <p>Berry Delicious</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="product-card second-row-product">
+            <img class="product-image" src="images/choco-pops.png" alt="Choco Pops">
+            <div>
+                <h2>Product 1</h2>
+                <p>Berry Delicious</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="product-card third-row-product">
+            <img class="product-image" src="images/corn-flakes.png" alt="Corn Flakes">
+            <div>
+                <h2>Product 1</h2>
+                <p>Berry Delicious</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="product-card third-row-product">
+            <img class="product-image" src="images/frosty-rings.png" alt="Frosty Rings">
+            <div>
+                <h2>Product 1</h2>
+                <p>Berry Delicious</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="product-card third-row-product">
+            <img class="product-image" src="images/super-puffs.png" alt="Super Puffs">
+            <div>
+                <h2>Product 1</h2>
+                <p>Berry Delicious</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
     </main>
+    
     <!-- Footer -->
     <footer class="flex-footer">
         <div class="item-order-1">

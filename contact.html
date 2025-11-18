@@ -35,14 +35,16 @@
 <body>
     <!-- Page header -->
     <nav class="main-nav">
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="projects.html">Projects</a> |
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
         <a href="contact.html">Contact</a>
+        <a href="team.html">Team</a>
+        <a href="#" class="sign-in">Sign In</a>
     </nav>
     <header class="page-header">
         <h1>Launch Studio!</h1>
-        <img src="images/logo2-thumb.png" alt="Logo" class="logo">
+        <img src="images/logo2-thumb.png" alt="Site Branding Logo" class="logo">
     </header>
 
     <!-- Main content -->
@@ -93,13 +95,30 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Stephen Herd</p>
-        <ul style="list-style-type: none;">
-            <li><a href="https://www.dallascollege.edu/" class="nav-link">Dallas College</a></li>
-            <li><a href="mailto:sherd@dallascollege.edu" class="nav-link">Webmaster</a></li>
-            <li><a href="https://chatgpt.com/" class="nav-link">Chat GPT</a></li>
-        </ul>
+    <footer class="flex-footer">
+        <div class="item-order-1">
+            <h3 class="footer-heading">&copy; 2025 Stephen Herd</h3>
+            <a href="mailto:sherd@dallascollege.edu" class="nav-link">Webmaster</a>
+        </div>
+
+        <div class="item-order-2">
+            <h3 class="footer-heading">Resources</h3>
+            <ul class="footer-content-left">
+                <li><a href="https://www.dallascollege.edu/" class="nav-link">Dallas College</a></li>
+                <li><a href="https://chatgpt.com/" class="nav-link">Chat GPT</a></li>
+            </ul>
+        </div>
+        
+        <nav class="item-order-3">
+            <h3 class="footer-heading">Site Nav</h3>
+            <ul class="footer-content-left">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="team.html" class="nav-link">Team</a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
 
